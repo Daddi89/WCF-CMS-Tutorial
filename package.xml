@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="com.tutorial.cms">
+	<packageinformation>
+		<packagename>Tutorial CMS</packagename>
+		<packagedescription>Unser WCom Tutorial CMS</packagedescription>
+		<standalone>1</standalone>
+		<version>0.0.1</version>
+		<date>2010-07-18</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Patrick Bauer</author>
+	</authorinformation>
+	
+	<requiredpackages>
+		 <!-- basics -->
+		<requiredpackage minversion="1.1.2">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.image</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.image.captcha</requiredpackage>
+				
+		 <!-- page system -->
+		<requiredpackage minversion="1.1.1">com.woltlab.wcf.data.page.headerMenu</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.system.style</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.page</requiredpackage>
+		
+		<!-- help system -->
+		<requiredpackage minversion="1.1.1">com.woltlab.wcf.data.help</requiredpackage>
+		
+		<!-- user -->
+		<requiredpackage minversion="1.1.2">com.woltlab.wcf.form.user</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<languages languagecode="de">de.xml</languages>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+	</instructions>
+
+</package>

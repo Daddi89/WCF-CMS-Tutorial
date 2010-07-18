@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+
+	<!-- ACP -->
+	<category name="cms.acp">
+		<item name="cms.acp.jumpToCMS"><![CDATA[Zur Webseite]]></item>
+	</category>
+	
+	<!-- Index -->
+	<category name="cms.index.title">
+		<item name="cms.index.title"><![CDATA[Startseite]]></item>
+	</category>
+
+</language>
