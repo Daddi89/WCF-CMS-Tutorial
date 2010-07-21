@@ -1,4 +1,8 @@
 <?php
+/*
+	Siehe global.php im Hauptordner
+*/
+
 define('RELATIVE_CMS_DIR', '../');
 
 $packageDirs = array();

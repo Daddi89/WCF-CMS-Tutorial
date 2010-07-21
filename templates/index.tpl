@@ -1,6 +1,6 @@
 {include file="documentHeader"}
 <head>
-	<title>{lang}cms.index.title{/lang} - {lang}{PAGE_TITLE}{/lang}</title>
+	<title>{lang}cms.index.title{/lang}</title>
 	{include file='headInclude' sandbox=false}
 </head>
 <body{if $templateName|isset} id="tpl{$templateName|ucfirst}"{/if}>
