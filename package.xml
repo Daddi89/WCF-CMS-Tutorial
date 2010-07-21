@@ -4,9 +4,11 @@
 	<packageinformation>
 		<packagename>Tutorial CMS</packagename>
 		<packagedescription>Unser WCom Tutorial CMS</packagedescription>
-		<standalone>1</standalone>
 		<version>0.0.1</version>
 		<date>2010-07-21</date>
+		
+		<!-- Das standalone-Tag zeigt dem WCF dass unser Paket eine Endandwendung ist -->
+		<standalone>1</standalone>
 	</packageinformation>
 	
 	<authorinformation>
