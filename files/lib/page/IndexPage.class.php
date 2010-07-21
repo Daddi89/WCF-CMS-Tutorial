@@ -9,7 +9,7 @@ require_once(WCF_DIR.'lib/page/AbstractPage.class.php');
 
 //... und erben direkt von dieser.
 //Innerhalb der Klasse geben wir noch das aufzurufende Template an, 
-//um dessen Anzeige kümmert sich die show() Methode aus der Abstract-Page
+//um dessen Anzeige kÃ¼mmert sich die show() Methode aus der Abstract-Page
 class IndexPage extends AbstractPage {
 	public $templateName = "index";
 	

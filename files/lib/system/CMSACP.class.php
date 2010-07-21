@@ -24,9 +24,9 @@ class CMSACP extends WCFACP {
 	protected function assignDefaultTemplateVariables() {
 		parent::assignDefaultTemplateVariables();
 		
-		//Wir fügen dem Template 2 Variablen hinzu.
-		//additionalHeaderButtons hängen wir einen Button an, in dem Falle den Button der uns vom ACP zum CMS bringt (im WBB ist das der "Zum Forum" Button)
-		//pageTitle ist einfach nur eine Variable welche im ACP Header-Template genutzt wird um den Title-Tag der Seite zu füllen
+		//Wir fÃ¼gen dem Template 2 Variablen hinzu.
+		//additionalHeaderButtons hÃ¤ngen wir einen Button an, in dem Falle den Button der uns vom ACP zum CMS bringt (im WBB ist das der "Zum Forum" Button)
+		//pageTitle ist einfach nur eine Variable welche im ACP Header-Template genutzt wird um den Title-Tag der Seite zu fÃ¼llen
 		self::getTPL()->assign(array(
 			'additionalHeaderButtons' => '<li><a href="'.RELATIVE_CMS_DIR.'index.php?page=Index"><img src="'.RELATIVE_WCF_DIR.'icon/websiteS.png" alt="" /> <span>'.WCF::getLanguage()->get('cms.acp.jumpToCMS').'</span></a></li>',
 			'pageTitle' => StringUtil::encodeHTML(PACKAGE_NAME . ' - ' . PACKAGE_VERSION)
